@@ -1,0 +1,34 @@
+
+# Dependencias de JavaScript
+node_modules/
+
+# Compilaciones
+dist/
+build/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Firebase
+.firebase/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Archivos temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# Archivos científicos temporales
+data/cache/
+*.fits
+*.fits.gz
+
